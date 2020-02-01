@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    background: linear-gradient(#523A78, #E0045A)  no-repeat;
+    font-family: Georgia, serif;
+}
+h1{
+    text-align: center;
+    padding: 25px;
+    font-family: Georgia, serif;
+}
+div{
+    height:700px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: white;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    background-color: #E6E6E6;
+
+}
+
+.myButton {
+	background-color:#D23F8D;
+	border:1px solid #D23F8D;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:19px;
+	padding:6px 12px;
+    text-decoration:none;
+    width: 250px;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#check{
+    width: 50px;
+}
